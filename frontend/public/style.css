@@ -1,0 +1,138 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.sectionone {
+  overflow-x: hidden;
+  background-color: white;
+}
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 60px;
+  background: white;
+  padding: 0px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 100;
+  border-bottom: 1px solid #112846;
+  color: #112846;
+}
+.left {
+  color: #112846;
+}
+.middle {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+}
+.right {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+.links a {
+  text-decoration: none;
+  color: #000000;
+}
+.home {
+  height: calc(100vh - 90px);
+  width: 100vw;
+  background-image: url(https://s3-alpha-sig.figma.com/img/46bc/a2e0/6ebfb3f2800799239316337f02ad2f96?Expires=1705276800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=V1oZAb3TDtKKbPNqBJr4Bt3IUyOBmiYAGkI8DxQlRZypCxq76tMKNf0J7Kb4OFp~NrT2enYVCYDUVfag5W889lIiQUBcVoUn9igBPClUhu1l9Vo38mpDKO~V43pHyLyordBH7krcT2xbzCwT14YL72w7c~UbZz7JNRH2WR5qHJbPYWTx8mIa4qc9HTPplEX3lc8qpkf4SZDvstODpeRuoNC4r~BmTmqu-GssPHuwnc8WVgz3xykHld0tc27EqxDKA8mLxhdxLmndnVDZ2kQ~WESGq0DK6WFnKcrf3k5KU7zJ9OKH4UrChUqKrhyxAuloCGIAk5GeECK5EPKAqdnvnQ__);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+}
+.hometext {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 24px;
+  font-weight: 600;
+}
+.sectiontwo {
+  height: calc(100vh - 60px);
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f3f8ff;
+  border: 1px solid red;
+}
+.aboutcenter {
+  width: 50%;
+  text-align: center;
+}
+.sectionthree {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: white;
+}
+.innercontact {
+  width: 40%;
+  height: calc(100vh - 70px);
+  height: fit-content;
+  background-color: #d9d9d9;
+  border-radius: 10px;
+  padding: 50px;
+}
+.buttoncontainer {
+  text-align: end;
+}
+.submitbutton {
+  background-color: #112846;
+  color: white;
+}
+.submitbutton:hover {
+  background-color: #112846;
+  color: white;
+  scale: 1.1;
+}
+.sectionfour {
+  height: fit-content;
+  width: 100vw;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  background-color: #f3f8ff;
+  padding-top: 75px;
+}
+.cardbody {
+  width: 90%;
+  margin: auto;
+}
+.cardbodytext {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.girdcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.eachelemnt {
+  flex: 1;
+  margin: 20px;
+}
+.footer {
+  height: 250px;
+  background: #666666;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  padding: 20px;
+}
+.eachelementfooter {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  gap: 20px;
+}
